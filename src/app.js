@@ -1,4 +1,4 @@
-const geocode = require('./utils/geocode');
+const geocode = require('./utils/geocode')
 const forecast = require('./utils/forcast');
 const request = require('request');
 
