@@ -11,7 +11,7 @@ weatherForm.addEventListener('submit', (e) => {
     messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
 
-    fetch('https://cors-anywhere.herokuapp.com/weather?address=' + location).then((response) => {
+    fetch('https://cors-anywhere.herokuapp.com/https://navin-my-weather-app.herokuapp.com/weather?address=' + location).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 messageOne.textContent = data.error
